@@ -1,0 +1,12 @@
+#livedata .newHead {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+#livedata .newMsg {
+    text-align: justify;
+    font-style: italic;
+    font-size: 16px;
+    border-bottom: 1px dotted #3c3c3c;
+}

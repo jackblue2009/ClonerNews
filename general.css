@@ -1,0 +1,34 @@
+body {
+    background-color: var(--Tan);
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --WhiteColor: #FFFFFF;
+    /*OLD COLORS BELOW*/
+    --WengeColor: #5D576B;
+    --TropicalIndigoColor: #8884FF;
+    --ThistieColor: #D7BCE8;
+    --ThistieLightColor: #E8CEE4;
+    --PalePurpleColor: #FDE2FF;
+    /*NEW COLORS BELOW*/
+    --MoonStone: #729EA1;
+    --Sage: #B5BD89;
+    --Tan: #DFBE99;
+    --LightCoral: #EC9192;
+    --Blush: #DB5375;
+}
+
+main {
+    margin: 0 auto;
+    width: 70%;
+    background-color: var(--WhiteColor);
+    padding: 0.3em;
+    border: 1px solid var(--Blush);
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,0 +1,33 @@
+main h2 {
+    text-transform: uppercase;
+    font-size: 28px;
+}
+
+main p {
+    font-size: 18px;
+}
+
+main p a {
+    color: var(--LightCoral);
+    text-decoration: none;
+}
+
+main p a:hover {
+    color: var(--Blush);
+    text-decoration: underline;
+}
+
+main ul {
+    list-style-type: none;
+}
+
+main ul li {
+    display: inline-block;
+    padding: 25px;
+    font-size: 18px;
+    border: 2px solid var(--Blush);
+    background-color: var(--LightCoral);
+    color: var(--WhiteColor);
+    text-transform: uppercase;
+    cursor: pointer;
+}

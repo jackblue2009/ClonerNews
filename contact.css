@@ -1,0 +1,12 @@
+main h2 {
+    text-transform: uppercase;
+    font-size: 28px;
+}
+
+main p {
+    font-size: 18px;
+}
+
+main p span {
+    font-style: italic;
+}
